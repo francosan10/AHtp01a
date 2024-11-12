@@ -1,0 +1,97 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oxygen", serif;
+    font-size: 16px;
+}
+header {
+    background: linear-gradient(45deg, rgb(94, 247, 55), rgb(255, 23, 166));
+    color: aliceblue;
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 150px;
+}
+.logo {
+    width: 50px;
+    filter: invert(34%) sepia(83%) saturate(7456%) hue-rotate(328deg) brightness(98%) contrast(105%);
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    margin-right: 10px;
+}
+a:hover {
+    color: #5ef737ba;
+}
+section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Video como fondo */
+section video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+/* Contenedor de botones */
+.botones {
+    position: absolute;
+    top: 80%;
+    left: 60%;
+    z-index: 2;
+    text-align: center;
+}
+/* Estilos de los enlaces/botones */
+.botones a {
+    display: inline-block;
+    margin: 10px;
+    padding: 15px 30px;
+    background-color: #ff17a69e;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.botones :nth-child(1) {
+    background-color: black;
+    border: 2px solid #ff17a69e;
+}
+.botones :nth-child(1):hover {
+    background-color: black;
+    border: 2px solid #ff17a6c5;
+}
+.botones a:hover {
+    background-color: #ff17a6c5;
+}
+
+footer {
+    background: linear-gradient(45deg, #5ef737, #ff17a6);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 150px;
+    height: 50px;
+    color: aliceblue;
+}
+footer p {
+    color: #ff0a68;
+    font-weight: 600;
+}
+.redes a i{
+    font-size: 30px;
+    margin-right: 5px;
+}
+

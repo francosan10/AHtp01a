@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oxygen", serif;
+    font-size: 16px;
+}
+body {
+    background: black;
+}
+header {
+    background: linear-gradient(45deg, rgb(94, 247, 55), rgb(255, 23, 166));
+    color: aliceblue;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 150px;
+}
+.logo {
+    width: 50px;
+    filter: invert(34%) sepia(83%) saturate(7456%) hue-rotate(328deg) brightness(98%) contrast(105%);
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    margin-right: 10px;
+}
+a:hover {
+    color: #5ef737ba;
+}
+
+section {
+    display: flex;
+}
+.zapa {
+    width: 50vw;
+}
+.textos {
+    padding: 0 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 50%;
+    /* background: linear-gradient(45deg, #5ef737, #ff17a6); */
+    background-color: #010101;
+    color: #fff;
+}
+h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.textos p {
+    margin: 5px 0;
+    font-size: 20px;
+}
+.botoncito {
+    margin-top: 50px;
+}
+.botoncito a{
+    padding: 15px 30px;
+    background-color: #ff17a69e;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.botoncito a:hover {
+    background-color: #ff17a6;
+}
+
+footer {
+    background: linear-gradient(45deg, #5ef737, #ff17a6);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 150px;
+    height: 50px;
+    color: aliceblue;
+}
+footer p {
+    color: #ff0a68;
+    font-weight: 600;
+}
+.redes a i{
+    font-size: 30px;
+    margin-right: 5px;
+}

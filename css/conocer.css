@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oxygen", serif;
+    font-size: 16px;
+}
+body {
+    background: black;
+}
+header {
+    background: linear-gradient(45deg, rgb(94, 247, 55), rgb(255, 23, 166));
+    color: aliceblue;
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 150px;
+}
+.logo {
+    width: 50px;
+    filter: invert(34%) sepia(83%) saturate(7456%) hue-rotate(328deg) brightness(98%) contrast(105%);
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    margin-right: 10px;
+}
+a:hover {
+    color: #5ef737ba;
+}
+
+.zapa  {
+    width: 100%;
+}
+.textos {
+    text-align: center;
+    width: 50%;
+    color: #fff;
+    position: fixed;
+    top: 45vh;
+    left: 50vh;
+    z-index: 1;
+}
+h1 {
+    font-weight: bold;
+    font-size: 70px;
+    margin-bottom: 40px;
+}
+section p {
+    font-size: 20px;
+}
+
+footer {
+    background: linear-gradient(45deg, #5ef737, #ff17a6);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 150px;
+    height: 50px;
+    color: aliceblue;
+}
+footer p {
+    color: #ff0a68;
+    font-weight: 600;
+}
+.redes a i{
+    font-size: 30px;
+    margin-right: 5px;
+}
